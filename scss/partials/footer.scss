@@ -1,13 +1,24 @@
 .footer{
-	width: 100%; 
-	margin: 0 auto 0 auto; 
+	height: rem-calc(240); 
+	line-height: rem-calc(24); 
+	div{
+		height: rem-calc(220); 
+	}
+	overflow: hidden; 
+ 	margin: 0; 
+ 	padding: rem-calc(10); 
 	background-color: $grey; 
-	max-width: initial; 
-	padding: 1em; 
-	bottom: 0; 
 	border-top: 1px solid $dark-grey; 
-
-	logo{
-		margin: auto; 
+	a{
+		color: $snow; 
+		font-weight: 100 !important; 
+		@media #{$small-up}{ font-size: rem-calc(9); }
+		@media #{$large-up}{ font-size: rem-calc(12);}
+	}
+	a:hover{
+		color: $orange; 
+	}
+	ul{
+		list-style-type: none; 
 	}
 }
