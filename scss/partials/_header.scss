@@ -4,6 +4,7 @@
 	@media #{$medium-up}{height: 8.1em;}
 	@media #{$xlarge-up}{height: 11.5em;}
 	.logo{
+		height: 11.5em; 
 		display: block; 
 		margin-top: -0.33em; 
 		@media #{$small-only}{ margin-top: 1em; }

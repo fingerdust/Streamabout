@@ -10,19 +10,16 @@
   <body>
     <div class="wrapper"> 
       <?php include 'partials/header.php' ?>
-      <div class="row">
-        <div class="large-12 columns">
-
-        </div>
+      <div>
+        <video class="banner-video" poster="videos/advertising.png" autoplay loop muted id="bgvid">
+         <source src="videos/advertising.mp4" type="video/mp4">
+         <source src="videos/advertising.webm" type="video/webm">
+          
+          <source src="videos/advertising.ogv" type="video/ogg">
+        </video>
       </div>
-      
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="panel" style="height:1500px;">
 
-          </div>
-        </div>
-      </div>
+
 
 
       <?php include 'partials/footer.php' ?>
