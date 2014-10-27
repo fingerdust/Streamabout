@@ -1,6 +1,5 @@
 .header{
-
-	border-bottom: 1px solid $grey; 
+	overflow: hidden; 
 	@media #{$medium-up}{height: 8.1em;}
 	@media #{$xlarge-up}{height: 11.5em;}
 	.logo{
