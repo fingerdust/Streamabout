@@ -1,0 +1,14 @@
+[20:36:32] : Yamb 2.1.0.0 beta 2 started !!!
+[20:36:32] : OS type detection...Windows Seven x64 (version 6.1, Build 7601 : Service Pack 1)
+[20:36:32] : MP4Box found... C:\Users\mark\AppData\Roaming\Yamb\MP4Box.exe
+[20:36:32] : EAC3to found...c:\users\mark\appdata\roaming\yamb\eac3to\eac3to.exe
+[20:36:39] : advertising.mp4 loaded.
+[20:36:58] : advertising.mp4 will be overwritten.
+[20:36:58] : Creation of advertising.mp4...
+[20:36:58] : Command Line used for Creation : "C:\Users\mark\AppData\Roaming\Yamb\MP4Box.exe" -add "C:\xampp\htdocs\Streamabout\videos\advertising.mp4#1:fps=25.000" -itags tool="Yamb 2.1.0.0 [http://yamb.unite-video.com]" -new "C:\xampp\htdocs\Streamabout\videos\advertising.mp4"
+[20:36:58] : File saved in C:\xampp\htdocs\Streamabout\videos\ 
+[20:37:00] : Importing ISO File...
+[20:37:00] : File Writing...
+[20:37:00] : Creation complete.
+[20:37:00] : Total Time Elapsed...01 secs
+[20:37:52] : Yamb 2.1.0.0 beta 2 closed.

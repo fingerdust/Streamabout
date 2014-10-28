@@ -1,0 +1,49 @@
+.banner{
+	position: absolute; 
+	background: url(../images/pattern.png);
+	background-repeat: repeat;
+	width: 100%; 
+
+ 
+	z-index: 2;
+
+	.banner-link{
+		text-align: center; 
+		h2{
+			@media #{$small-up}{
+				font-size: rem-calc(30);
+			}
+			@media #{$large-up}{
+				font-size: rem-calc(40);
+			}
+			@media #{$large-up}{
+				font-size: rem-calc(50);
+			}
+			@media #{$xlarge-up}{
+				font-size: rem-calc(70);
+			}
+		}
+		a{
+			color: white; 
+		}
+		img{
+			@media #{$small-up}{
+				width: rem-calc(45); 
+			}
+			@media #{$medium-up}{
+				width: rem-calc(80); 
+			}
+			@media #{$large-up}{
+				width: rem-calc(90); 
+			}
+			@media #{$xlarge-up}{
+				width: rem-calc(119); 
+			}
+		}
+	}
+}
+.text-banner{
+	h2{
+		color: $orange; 
+	}
+}
