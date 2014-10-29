@@ -1,9 +1,9 @@
 .banner{
 	position: absolute; 
 	background: url(../images/pattern.png);
-	-ms-background-size: 4px; 
 	background-repeat: repeat;
 	width: 100%; 
+
 
  
 	z-index: 2;
@@ -45,8 +45,8 @@
 }
 .text-banner{
 	text-align: center; 
-	margin-bottom: 100px; 
-	width: 80%; 
+	margin: rem-calc(100) auto; 
+	max-width: 80%; 
 	h2{
 		color: $orange; 
 	}
