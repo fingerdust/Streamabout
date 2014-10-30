@@ -10,7 +10,7 @@
 				</a>
 			</h1>
 		<ul class="nav">
-			  <li><a href="#">it's about you</a></li>
+			  <li><a href="./its-about-you.php">it's about you</a></li>
 			  <li><a href="#">what we do</a></li>
 			  <li><a href="#">our work</a></li>
 			  <li><a href="#">our clients</a></li>

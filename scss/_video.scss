@@ -14,3 +14,19 @@
 	-moz-transform-origin:0 0;
 	transform-origin:0 0;
 }
+.fallback{
+	z-index:200; 
+	object-fit: cover; 
+	-moz-object-fit: cover; 
+	width: 100% !important; 
+	
+	-moz-transform: scaleY(0.8); 
+	-ms-transform: scaleY(0.8); 
+	-webkit-transform: scaleY(0.8); 
+	transform: scaleY(0.8); 
+	
+	-webkit-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	transform-origin:0 0;	
+}

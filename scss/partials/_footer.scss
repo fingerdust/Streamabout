@@ -1,11 +1,10 @@
 .footer{
+	padding: rem-calc(20) 0; 
 	.mobile{ display: none; }
-
-	height: rem-calc(200); 
-	line-height: 1.4;
+	line-height: 1.2;
 	overflow: hidden; 
  	margin: 0; 
- 	padding: rem-calc(10); 
+ 	padding: rem-calc(-9.3); 
 	background-color: $grey; 
 	border-top: 1px solid $dark-grey; 
 	div{
@@ -25,19 +24,20 @@
 	ul{
 		list-style-type: none; 
 		margin-bottom: 0;
-		line-height: 1.4;
+		line-height: 1.2;
 		margin-left: 0; 
 	}
 	.social-media{
 		position: absolute;
 		right: rem-calc(13);
-		bottom: rem-calc(5);
+		bottom: rem-calc(-150);
 		height: auto;
 
 		@media #{$small-only}{
 			position: relative; 
 			margin-top: rem-calc(-35); 
 			right: 0; 
+			bottom: rem-calc(8); 
 		}
 	}
 	#facebook{
