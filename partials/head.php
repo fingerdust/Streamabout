@@ -7,6 +7,7 @@
     <meta name="author" content="Mark Tobin - mtspark@gmail.com"> 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/perfect-scrollbar.css" />
 
     <!-- Slider js --> 
     <link rel="stylesheet" href="stylesheets/idangerous.swiper.css">

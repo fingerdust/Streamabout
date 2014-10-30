@@ -15,6 +15,7 @@
 	z-index: 2;
 
 	.banner-link{
+		display: none; 
 		text-align: center; 
 		transition: all 0.5s ease-in-out; 
 		-moz-transition: all 0.5s ease-in-out; 
@@ -88,7 +89,7 @@
 		text-align: left;
 	}
 	@media #{$medium-up}{
-		p{
+		&.top p{
 			column-count: 2; 
 			-moz-column-count: 2;
 			-webkit-column-count: 2;
@@ -102,29 +103,33 @@
 		font-size: rem-calc(20); 
 	}
 }
+.content-banner{
+	text-align: left; 
+	margin: rem-calc(80) 0; 
+	h1, h3, h2, h4, p, span{
+		color: $orange;
+		text-align: left; 
+	}	
+}
 .side-banner{
 	@media #{$small-up}{
 		position: absolute; 
 		left: 5%; 
-		top: 14%;
-		width: 32%; 
+		width: 25%; 
 	}
 	@media #{$medium-up}{
 		position: absolute; 
 		left: 5%; 
-		top: 39%;
-		width: 13%; 
+		width: 25%; 
 	}
 	@media #{$large-up}{
 		position: absolute; 
 		left: 5%; 
-		top: 24%;
-		width: 20%; 
+		width: 25%; 
 	}
 	@media #{$xlarge-up}{
 		position: absolute; 
 		left: 5%; 
-		top: 37%;
 		width: 20%; 
 	}
 
@@ -132,12 +137,12 @@
 		@media #{$small-up}{
 			line-height: 1.2; 
 			color: $orange;
-			font-size: rem-calc(10);
+			font-size: rem-calc(14);
 		}
 		@media #{$medium-up}{
 			line-height: 1.2; 
 			color: $orange;
-			font-size: rem-calc(23);
+			font-size: rem-calc(18);
 		}
 		@media #{$large-up}{
 			line-height: 1.2; 

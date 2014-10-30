@@ -4,6 +4,7 @@
 @import "partials/footer"; 
 @import "video"; 
 @import "banner"; 
+@import "content";
 
 // Or selectively include components
 // @import
@@ -46,4 +47,5 @@
 .wrapper{
 	position: relative; 
 }
+.row{max-width: 10000px;}
 $font-family-sans-serif: Helvetica, Roboto, Arial, sans-serif;
