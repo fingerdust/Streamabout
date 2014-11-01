@@ -18,12 +18,12 @@ window.onload = function() {
   // Creating the slider 
   mySwiper = new Swiper('.swiper-container',{
     mode:'horizontal',
+    loop: true,
     speed: 1600,
     autoplay: 5000,
     initialSlide: 0,
     onlyExternal: true,
-    loopAdditionalSlides: -1,
-    loop: true,
+    loopAdditionalSlides: 0,
     onSwiperCreated: function(){
       $('.banner-link').show(); 
     }

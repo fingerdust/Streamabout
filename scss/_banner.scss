@@ -183,8 +183,13 @@
 	}
 	.banner-image{
 		padding: 0; 
+		img{
+			width: 100%;
+			position: relative;
+		}
 	}
 	.banner-side-text{
+		display: none; 
 		position: relative;
 		overflow: hidden; 
 		top: 50%; 

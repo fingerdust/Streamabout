@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <?php include 'partials/head.php' ?>
-  <body>
+  <body id="what-we-do">
     <div class="wrapper"> 
 
       <!-- Header -->

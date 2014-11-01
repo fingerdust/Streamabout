@@ -29,12 +29,12 @@
 			<ul>
 				<li><span>Site Map</span></li>
 				<li><br /></li>
-				<li><a href="#">it's about you</a></li>
-				<li><a href="#">what we do</a></li>
+				<li><a href="./its-about-you.php">it's about you</a></li>
+				<li><a href="./what-we-do.php">what we do</a></li>
 				<li><a href="#">our work</a></li>
-				<li><a href="#">our clients</a></li>
-				<li><a href="#">blog</a></li>
-				<li><a href="#">contact</a></li>
+				<li><a href="./clients.php">our clients</a></li>
+				<li><a href="http://streamabout.blogspot.ie/">blog</a></li>
+				<li><a href="./contacts.php">contact</a></li>
 			</ul>	
 		</div>		
 		<div class="large-2 medium-4 columns non-mobile">

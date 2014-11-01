@@ -1,6 +1,7 @@
 $(document).foundation();
 
 window.onload = function() {
+	$('.banner-side-text').fadeIn(1500);
 	var width = $( window ).width(); 
 	$('.scroll-box').css('height', width*0.15);
 	$('.scroll-box').perfectScrollbar({

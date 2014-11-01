@@ -1,9 +1,10 @@
 .header{
-	overflow: hidden; 
+	overflow: visible;
+	position: relative;  
 	@media #{$medium-up}{height: 8.1em;}
 	@media #{$xlarge-up}{height: 11.5em;}
 	.logo{
-		height: 11.5em; 
+		margin-bottom: rem-calc(-12); 
 		display: block; 
 		margin-top: -0.33em; 
 		@media #{$small-only}{ margin-top: 1em; }
@@ -122,4 +123,20 @@
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+body#home a#homenav,
+body#products a#prodnav,
+body#faq a#faqnav,
+body#contact a#connav {
+color: #fff;
+background: #930;
+}
+body#home a#home,
+body#its-about-you a#its-about-you,
+body#what-we-do a#what-we-do,
+body#our-work a#our-work,
+body#clients a#clients,
+body#contact a#contact {
+color:$orange;
+
 }

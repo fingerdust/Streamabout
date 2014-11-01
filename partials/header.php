@@ -10,13 +10,21 @@
 			</a>
 		</h1>
 		<ul class="nav">
-			<li><a href="http://www.streamabout.com">home</a></li>		
-			<li><a href="./its-about-you.php">it's about you</a></li>
-			<li><a href="./what-we-do.php">what we do</a></li>
-			<li><a href="#">our work</a></li>
-			<li><a href="#">our clients</a></li>
+			<li><a href="http://www.streamabout.com" id="home">home</a></li>		
+			<li><a href="./its-about-you.php" id="its-about-you">it's about you</a></li>
+			<li><a href="./what-we-do.php" id="what-we-do">what we do</a></li>
+			<li ><a href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" id="our-work">our work</a>
+			<ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+			  <li><a href="#">Interactive Magazines</a></li>
+			  <li><a href="#">PR Video News Releases</a></li>
+			  <li><a href="#">Website/Social Media Video</a></li>
+			  <li><a href="#">Programming</a></li>
+			  <li><a href="#">Advertising</a></li>
+			</ul>
+			</li>
+			<li><a href="./clients.php" id="clients">our clients</a></li>
 			<li><a href="http://streamabout.blogspot.ie/">blog</a></li>
-			<li><a href="#">contact</a></li>
+			<li><a href="./contact.php" id="contact">contact</a></li>
 		</ul>
 	</div>
 </div>
