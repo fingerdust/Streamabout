@@ -5,7 +5,6 @@ $(document).foundation();
 var mySwiper; 
 
 window.onload = function() {
-
   // Resizing necessary for banner elements
   var width = $( window ).width(); 
   var height = (width * 9 * 0.82) / 16;  
@@ -15,7 +14,6 @@ window.onload = function() {
   $( ".banner-link" ).css('margin-top',  height/1.6);
   $(".swiper-container").css('height',  height);
   $('.side-banner').css('top', height*0.790);
-  
 
   // Creating the slider 
   mySwiper = new Swiper('.swiper-container',{
@@ -82,6 +80,5 @@ $( window ).resize(function() {
   $( ".banner-link" ).css('margin-top',  height/1.6);
   $(".swiper-container").css('height',  height);
   $('.side-banner').css('top', height*0.790);
-   $('.scroll-box').css('height', width*0.3);
 });
 

@@ -7,7 +7,16 @@ window.onload = function() {
 		suppressScrollX: true,
 		minScrollbarLength: 30
 	}); 
-
+	var height = $('.banner-side-text').parent().height(); 
+	if($('.banner-side-text').height() > height){
+		$('.banner-side-text').css('height', height); 
+		$('.banner-side-text').perfectScrollbar({
+			suppressScrollX: true,
+			minScrollbarLength: 30,
+			maxScrollbarLength: 70,
+			includePadding: true
+		}); 
+	}
 
 };
 
@@ -18,4 +27,14 @@ $(window).resize(function() {
 		suppressScrollX: true,
 		minScrollbarLength: 30
 	}); 
+	var height = $('.banner-side-text').parent().height(); 
+	if($('.banner-side-text').height() > height){
+		$('.banner-side-text').css('height', height); 
+		$('.banner-side-text').perfectScrollbar({
+			suppressScrollX: true,
+			minScrollbarLength: 30,
+			maxScrollbarLength: 70
+		}); 
+	}
+
 }); 

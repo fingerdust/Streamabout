@@ -103,14 +103,7 @@
 		font-size: rem-calc(20); 
 	}
 }
-.content-banner{
-	text-align: left; 
-	margin: rem-calc(80) 0; 
-	h1, h3, h2, h4, p, span{
-		color: $orange;
-		text-align: left; 
-	}	
-}
+
 .side-banner{
 	@media #{$small-up}{
 		position: absolute; 
@@ -159,5 +152,49 @@
 		@media #{$small-only}{font-size: rem-calc(8)}; 
 		font-size: rem-calc(12); 
 		color: $charcoal; 
+	}
+}
+.banner-2{
+	overflow: hidden; 
+	position: relative; 
+	@media #{$small-only}{
+		h1{font-size: rem-calc(20);}
+		h3{font-size: rem-calc(16);}
+		p{font-size: rem-calc(12);}
+	}
+	@media #{$medium-only}{
+		h1{font-size: rem-calc(20);}
+		h3{font-size: rem-calc(16);}
+		p{font-size: rem-calc(12);}
+	}
+	@media #{$large-only}{
+		h1{font-size: rem-calc(28);}
+		h3{font-size: rem-calc(16);}
+		p{font-size: rem-calc(12);}
+	}
+	@media #{$xlarge-only}{
+		h1{font-size: rem-calc(38);}
+	}
+	.banner-side{
+		padding: 0; 
+		background-color: $orange; 
+		height: 100%; 
+		position: absolute; 
+	}
+	.banner-image{
+		padding: 0; 
+	}
+	.banner-side-text{
+		position: relative;
+		overflow: hidden; 
+		top: 50%; 
+		transform: translateY(-50%); 
+		-ms-transform: translateY(-50%); 
+		-webkit-transform: translateY(-50%); 
+		-moz-transform: translateY(-50%); 
+		padding: rem-calc(25); 
+		h1, h3, p{
+		color: $snow; 
+		}
 	}
 }

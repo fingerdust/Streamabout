@@ -1,11 +1,6 @@
 
 
 .content{
-	.row{
-		width: 92%; 
-	}
-	background-size: 100% auto; 
-	background-repeat: no-repeat; 
 	.text-banner{
 		text-align: left; 
 	}
@@ -26,9 +21,19 @@
 			h3{font-size:rem-calc(14);}
 			margin: rem-calc(40) 0; 
 		}
+		@media #{$large-only}{
+			h1{font-size:rem-calc(20);}
+			h3{font-size:rem-calc(14);}
+			margin: rem-calc(40) 0; 
+		}
+		@media #{$xlarge-only}{
+			h1{font-size:rem-calc(22);}
+			h3{font-size:rem-calc(16);}
+			margin: rem-calc(40) 0; 
+		}
 	}
 	.info-box{
-		margin-bottom: rem-calc(70); 
+		margin: rem-calc(100) 0; 
 		.top-info-box{
 			text-align: center;
 			width: 100%; 
@@ -60,4 +65,15 @@
 		}
 	}
 }
-#what-we-do{background-image:url(../images/what-we-do.png); }
+
+
+.text-block{
+	text-align: center; 
+	margin: rem-calc(40) 0; 
+	h1{
+		color: $orange; 
+	}
+	span{
+		color: $orange; 
+	}
+}

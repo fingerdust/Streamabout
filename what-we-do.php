@@ -6,27 +6,32 @@
 
       <!-- Header -->
       <?php include 'partials/header.php' ?>
-
+      <div class="row banner-2">
+        <div class="small-3 columns banner-side">
+          <div class="banner-side-text">
+            <h1>What we do is driven by what our Clients want and need.</h2> 
+            <h3>
+              In some cases it’s PR Video (Video News Releases – VNR) to promote an event or product launch. 
+              In some cases it’s online Advertising campaigns utilising online media or your own Social Media. 
+              Sometimes it’s strong video for your website and Social Media to demostrate what you’re doing. 
+            </h3>
+            <h3>
+              It depends.</br>
+              But it starts with a Brief – who are we talking to and why? And a deep understanding as to how
+              we reach the targets you want.
+            </h3>
+          </div>
+        </div>
+        <div class="small-9 columns banner-image">
+          <img src="images/what-we-do.png">
+        </div>
+      </div>
       <div class="content" id="what-we-do">
-        <div class="row">
-          <div class="small-7 columns content-banner">
-              <h1>What we do is driven by what our Clients want and need.</h2> 
-              <h3>
-                In some cases it’s PR Video (Video News Releases – VNR) to promote an event or product launch. 
-                In some cases it’s online Advertising campaigns utilising online media or your own Social Media. 
-                Sometimes it’s strong video for your website and Social Media to demostrate what you’re doing. 
-              </h3>
-              <h3>
-                It depends.</br>
-                But it starts with a Brief – who are we talking to and why? And a deep understanding as to how
-                we reach the targets you want.
-              </h3>
-          </div>
-          <div class="small-5 columns"></div>
-          </div>
+
+
 
         
-        <div class="row">
+        <div class="row" style="width:90%;">
           <div class="small-12 medium-4 columns info-box">
             <div class="top-info-box">
               <h4>Audience Fragmentation</h4> 
