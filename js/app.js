@@ -16,19 +16,33 @@ window.onload = function() {
   $('.side-banner').css('top', height*0.790);
 
   // Creating the slider 
-  mySwiper = new Swiper('.swiper-container',{
-    mode:'horizontal',
-    loop: true,
-    speed: 1600,
-    autoplay: 5000,
-    initialSlide: 0,
-    onlyExternal: true,
-    loopAdditionalSlides: 0,
-    onSwiperCreated: function(){
-      $('.banner-link').show(); 
-    }
-});  
-
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    mySwiper = new Swiper('.swiper-container',{
+        mode:'horizontal',
+        loop: true,
+        speed: 1600,
+        autoplay: 5000,
+        initialSlide: 0,
+        onlyExternal: true,
+        loopAdditionalSlides: 0,
+        onSwiperCreated: function(){
+          $('.banner-link').show(); 
+        }
+    });  
+}else{
+    mySwiper = new Swiper('.swiper-container',{
+        mode:'horizontal',
+        loop: false,
+        speed: 1600,
+        autoplay: 5000,
+        initialSlide: 0,
+        onlyExternal: true,
+        loopAdditionalSlides: -1,
+        onSwiperCreated: function(){
+          $('.banner-link').show(); 
+        }
+    });  
+}
 // Use slider autoplay when there is no video autoplay available. 
 if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )) {
  mySwiper.stopAutoplay();
@@ -81,4 +95,5 @@ $( window ).resize(function() {
   $(".swiper-container").css('height',  height);
   $('.side-banner').css('top', height*0.790);
 });
+
 

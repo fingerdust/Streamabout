@@ -15,7 +15,7 @@
 			<li><a href="./what-we-do.php" id="what-we-do">what we do</a></li>
 			<li ><a href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" id="our-work">our work</a>
 			<ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-			  <li><a href="#">Interactive Magazines</a></li>
+			  <li><a href="interactive-magazines.php?id=uDm8AAT_t8k">Interactive Magazines</a></li>
 			  <li><a href="#">PR Video News Releases</a></li>
 			  <li><a href="#">Website/Social Media Video</a></li>
 			  <li><a href="#">Programming</a></li>

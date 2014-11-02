@@ -18,7 +18,14 @@ window.onload = function() {
 			includePadding: true
 		}); 
 	}
-
+	$('.thumb-slider').slick({
+		slidesToShow: 5,
+		centerMode: true,
+		centerPadding: 10,
+		variableWidth: true,
+		nextArrow: '<img class="slick-next" src="./images/next-arrow.png" />',
+		prevArrow: '<img class="slick-prev" src="./images/next-arrow.png" />'
+	});
 };
 
 $(window).resize(function() {
@@ -39,3 +46,7 @@ $(window).resize(function() {
 	}
 
 }); 
+function urlChange(id) {
+    var site = '//www.youtube.com/embed/' + id + '?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1';
+    document.getElementById('player').src = site;
+}

@@ -72,5 +72,31 @@
 	}
 	span{
 		color: $orange; 
+		font-size: rem-calc(21); 
+	}
+	small{
+		font-size: rem-calc(12); 
+	}
+}
+.slick-slider{
+	img{
+		margin-left:rem-calc(12); 
+		margin-right:rem-calc(12); 
+	}
+}
+.slick-prev{
+	transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+}
+
+@media #{$medium-only}{
+	.slick-slide img{
+		width: rem-calc(200);
+	}
+	.slick-slider img{
+		margin-left:rem-calc(8); 
+		margin-right:rem-calc(8); 
 	}
 }
