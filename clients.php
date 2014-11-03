@@ -10,7 +10,7 @@
         <div class="row banner-2">
           <div class="small-3 columns banner-side">
             <div class="banner-side-text">
-              <h3></h3>
+              <h3>Omnicom, The Global Advertising Agency recently recommended that clients move 10-25% of their television advertising budgets into online digital video.</h3>
               <p></p> 
             </div>
           </div>
@@ -20,8 +20,9 @@
         </div>
         <div class="row">
           <div class="small-11 small-centered columns text-block">
-            <h1></h1>
-            <p></p>
+            
+            <p>Coca-Cola, Kellogg's, EA Games, Tesco, Presence PR, Brown Thomas, Aldi, Volkswagen, Safefood, Isobar, OPW, Eversheds, Barretstown, Deloitte, EY, Mars M&Ms, McDonald's, Ballygowan, Oliver Marketing, SFA, McCann FitzGerald, SuperValu, Bank of Ireland, Ptsb, AIB, Murray Consultants, MC squared, Heneghan PR, Tourism Ireland, Q4PR, The Sunday Independent, ESB, The Irish Independent, The Irish Times, Opel, Engineers Ireland, Ogilvy, League of Credit Unions, Arnotts, National Dairy Council, Ebow Digital, O’Leary PR, WHPR, Focus Advertising, Weber Shandwick, Vodafone, Drury PR, Philanthropy Ireland, The Merrion Hotel, Hewlett Packard, Plunkett PR, Yahoo!, The Wrigley Company, National Newspapers of Ireland, Discover Science, Peroni, Suzuki, HMV, Aer Lingus, Tramyard Café Dalkey, Diageo, Aon, ACCA, Ecocem…..</p>
+            <h1>Our Clients understand the power of online digital video. Should you?</h1>
             <span></span>
           </div>
         </div>

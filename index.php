@@ -22,10 +22,10 @@
               </div>
             </div>
             <video id="myVideo1" width="100%" poster="images/magazines.jpg" class="banner-video slider-video" preload="auto" muted >
-              <source src="videos/magazines.ogv" type="video/ogg">
+              
               <source src="videos/magazines.mp4" type="video/mp4">
               <source src="videos/magazines.webm" type="video/webm">
-              
+              <source src="videos/magazines.ogv" type="video/ogg">
               <img class="fallback" id="img1" src="images/magazines.jpg" alt="no-playback" >
             </video>
           </div>
@@ -41,11 +41,11 @@
               </div>
             </div>
             <video id="myVideo2" width="100%" poster="images/pr.jpg" class="banner-video slider-video" preload="auto" muted >
-              <source src="videos/pr.ogv" type="video/ogg">
+              
               <source src="videos/pr.mp4" type="video/mp4">
 
               <source src="videos/pr.webm" type="video/webm">
-              
+              <source src="videos/pr.ogv" type="video/ogg">
               <img class="fallback" id="img2" src="images/pr.jpg" alt="no-playback">
             </video>
           </div>
@@ -61,10 +61,10 @@
               </div>
             </div>
             <video id="myVideo3" width="100%" poster="images/website.jpg" class="banner-video slider-video" preload="auto" muted >
-              <source src="videos/website.ogv" type="video/ogg">
+              
               <source src="videos/website.mp4" type="video/mp4">
               <source src="videos/website.webm" type="video/webm">
-              
+              <source src="videos/website.ogv" type="video/ogg">
               <img class="fallback" id="img3" src="images/website.jpg" alt="no-playback">
             </video>
             </div>
@@ -80,10 +80,10 @@
               </div>
             </div>
             <video id="myVideo4" width="100%" poster="images/program.jpg" class="banner-video slider-video" preload="auto" muted >
-              <source src="videos/program.ogv" type="video/ogg">
+              
               <source src="videos/program.mp4" type="video/mp4">
               <source src="videos/program.webm" type="video/webm">
-              
+              <source src="videos/program.ogv" type="video/ogg">
               <img class="fallback" id="img4" src="images/program.jpg" alt="no-playback">
             </video>
             </div>
@@ -102,10 +102,10 @@
               </div>
             </div>
               <video id="myVideo5" width="100%"  poster="images/advertising.jpg" class="banner-video" preload="auto" muted>
-                <source src="videos/advertising.ogv" type="video/ogg">
+                
                 <source src="videos/advertising.mp4" type="video/mp4">
                 <source src="videos/advertising.webm" type="video/webm">
-                
+                <source src="videos/advertising.ogv" type="video/ogg">
                 <img class="fallback" id="img5" src="images/advertising.jpg" alt="no-playback" title="advertising">
               </video>
             </div>

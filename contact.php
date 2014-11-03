@@ -10,8 +10,8 @@
         <div class="row banner-2">
           <div class="small-3 columns banner-side">
             <div class="banner-side-text">
-              <h3></h3>
-              <p></p> 
+              <h3>500 years of YouTube video are watched every day on Facebook, and over 700 YouTube videos are shared on Twitter each minute</h3>
+              <p>YouTube</p> 
             </div>
           </div>
           <div class="small-9 columns banner-image">
@@ -20,9 +20,11 @@
         </div>
         <div class="row">
           <div class="small-11 small-centered columns text-block">
-            <h1></h1>
-            <p></p>
-            <span></span>
+            <h1>Contact</h1>
+            <p>You’re best way of getting in touch is email us here – <span style="font-size: 16px;">hello@streamabout.com</span></p>
+            
+            <p>Call Sarah O Doherty 086 8467522 or mail her at - <span style="font-size: 16px;">sarah@streamabout.com</span></p>
+            <p>Castleyard Officepods</br>20/21 St Patricks Rd</br>Dalkey</br>Co Dublin</p>
           </div>
         </div>
 
