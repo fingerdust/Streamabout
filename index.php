@@ -17,8 +17,8 @@
             <div class="banner-container">
              <div class="banner">
               <div class="banner-link" >
-                <h2><a href="#">Interactive Magazines</a></h2>
-                  <a href="#"><img class="go-image" src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
+                <h2><a href="interactive-magazines.php">Interactive Magazines</a></h2>
+                  <a href="interactive-magazines.php"><img class="go-image" src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
               </div>
             </div>
             <video id="myVideo1" width="100%" poster="images/magazines.jpg" class="banner-video slider-video" preload="auto" muted >
@@ -36,8 +36,8 @@
             <div class="banner-container">
              <div class="banner">
               <div class="banner-link">
-                <h2><a href="#">PR Video News Releases</a></h2>
-                <a href="#"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
+                <h2><a href="pr-video-and-news-releases.php">PR Video News Releases</a></h2>
+                <a href="pr-video-and-news-releases.php"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
               </div>
             </div>
             <video id="myVideo2" width="100%" poster="images/pr.jpg" class="banner-video slider-video" preload="auto" muted >
@@ -56,8 +56,8 @@
             <div class="banner-container">
              <div class="banner">
               <div class="banner-link">
-                <h2><a href="#">Website / Social Media Video</a></h2>
-                <a href="#"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
+                <h2><a href="website-social-media-video.php">Website / Social Media Video</a></h2>
+                <a href="website-social-media-video.php"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
               </div>
             </div>
             <video id="myVideo3" width="100%" poster="images/website.jpg" class="banner-video slider-video" preload="auto" muted >
@@ -75,8 +75,8 @@
             <div class="banner-container">
              <div class="banner">
               <div class="banner-link">
-                <h2><a href="#">Programming</a></h2>
-                <a href="#"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
+                <h2><a href="programming.php">Programming</a></h2>
+                <a href="programming.php"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
               </div>
             </div>
             <video id="myVideo4" width="100%" poster="images/program.jpg" class="banner-video slider-video" preload="auto" muted >
@@ -95,9 +95,9 @@
             <div class="banner-container">
              <div class="banner">
               <div class="banner-link">
-                <h2><a href="#">Advertising</a></h2>
+                <h2><a href="advertising.php">Advertising</a></h2>
                 <div class="go-image">
-                  <a href="#"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
+                  <a href="advertising.php"><img src="images/go.png" onmouseover="this.src='images/go-hover.png';" onmouseout="this.src='images/go.png';"></a>
                 </div>
               </div>
             </div>

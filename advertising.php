@@ -36,7 +36,7 @@ You’ll see some of our work here (although we have created literally thousands
           </div>
           <div class="small-9 columns banner-image">
             <div class="flex-video widescreen">
-              <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/<?php echo $_GET['id'];?>?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
+              <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/5u9RmZ-fUSY?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>
 
           </div>

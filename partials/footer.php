@@ -33,7 +33,7 @@
 				<li><a href="./what-we-do.php">what we do</a></li>
 				<li><a href="#">our work</a></li>
 				<li><a href="./clients.php">our clients</a></li>
-				<li><a href="http://streamabout.blogspot.ie/">blog</a></li>
+				<li><a href="./blog.php">blog</a></li>
 				<li><a href="./contacts.php">contact</a></li>
 			</ul>	
 		</div>		

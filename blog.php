@@ -1,30 +1,29 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <?php include 'partials/head.php' ?>
-  <body id="contact">
+  <body id="blog">
     <div class="wrapper"> 
 
       <!-- Header -->
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
-            <div class="banner-side-text">
-              <h3>500 years of YouTube video are watched every day on Facebook, and over 700 YouTube videos are shared on Twitter each minute</h3>
-              <p>YouTube</p> 
+          <div class="small-3 columns banner-side" id="blog">
+            <div class="banner-side-text" >
+              <h1>The world just changed. www.streamabout.com. The power of online video.</h1>
+              <p></p> 
             </div>
           </div>
           <div class="small-9 columns banner-image">
-            <img src="images/its-about-you-image.png">
+            <div class"small-6 columns centered" style="width:60%; margin: 0 auto; "> 
+            <script src="http://feeds.feedburner.com/blogspot/yxsku?format=sigpro" type="text/javascript" ></script>
+
+          </div> 
           </div>
         </div>
         <div class="row">
           <div class="small-11 small-centered columns text-block">
-            <h1>Contact</h1>
-            <p>Your best way of getting in touch is email us here – <a href="mailto:hello@streamabout.com"><span style="font-size: 16px;">hello@streamabout.com</span></p></a>
-            
-            <p>Call Sarah O Doherty 086 8467522 or mail her at - <a href="mailto:sarah@streamabout.com"><span style="font-size: 16px;">sarah@streamabout.com</span></p></a>
-            <p>Castleyard Officepods</br>20/21 St Patricks Rd</br>Dalkey</br>Co Dublin</p>
+
           </div>
         </div>
 

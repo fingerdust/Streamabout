@@ -17,7 +17,7 @@
           </div>
           <div class="small-9 columns banner-image">
             <div class="flex-video widescreen">
-              <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/<?php echo $_GET['id'];?>?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
+              <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/LnMP6cJ0y6c?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -34,8 +34,8 @@
             <div><a href="javascript:void(0)" onclick="urlChange('-yvOUIz0Yh0')"><img src="http://img.youtube.com/vi/-yvOUIz0Yh0/mqdefault.jpg" alt="slide 1" /></a></div>
             <div><a href="javascript:void(0)" onclick="urlChange('V-sZmmFvNdE')"><img src="http://img.youtube.com/vi/V-sZmmFvNdE/mqdefault.jpg" alt="slide 1" /></a></div>
             <div><a href="javascript:void(0)" onclick="urlChange('KEqJiBF2DT4')"><img src="http://img.youtube.com/vi/KEqJiBF2DT4/mqdefault.jpg" alt="slide 1" /></a></div>
-            <div><a href="javascript:void(0)" onclick="urlChange('Fh5P-exAbKY')"><img src="http://img.youtube.com/vi/QJe1vX9Pr5A/mqdefault.jpg" alt="slide 1" /></a></div>
-            <div><a href="javascript:void(0)" onclick="urlChange('Fh5P-exAbKY')"><img src="http://img.youtube.com/vi/U8PX75rZE9w/mqdefault.jpg" alt="slide 1" /></a></div>
+            <div><a href="javascript:void(0)" onclick="urlChange('Fh5P-exAbKY')"><img src="http://img.youtube.com/vi/Fh5P-exAbKY/mqdefault.jpg" alt="slide 1" /></a></div>
+            
             <div><a href="javascript:void(0)" onclick="urlChange('T7S3vjdMxWs')"><img src="http://img.youtube.com/vi/T7S3vjdMxWs/mqdefault.jpg" alt="slide 1" /></a></div>      
             <div><a href="javascript:void(0)" onclick="urlChange('GWs52uQ75oI')"><img src="http://img.youtube.com/vi/GWs52uQ75oI/mqdefault.jpg" alt="slide 1" /></a></div>
             <div><a href="javascript:void(0)" onclick="urlChange('aPBVkMsNm28')"><img src="http://img.youtube.com/vi/aPBVkMsNm28/mqdefault.jpg" alt="slide 1" /></a></div>

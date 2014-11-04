@@ -16,7 +16,7 @@
           </div>
           <div class="small-9 columns banner-image">
             <div class="flex-video widescreen">
-              <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/<?php echo $_GET['id'];?>?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
+              <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/zkhnSX806Vg?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>
 
           </div>

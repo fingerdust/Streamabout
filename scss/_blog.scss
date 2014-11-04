@@ -1,0 +1,24 @@
+.feedburnerFeedBlock{
+	img{
+		width: 40% !important; 
+	}
+	ul{
+		list-style-type: none; 
+	}
+	li{
+		margin-bottom: rem-calc(80); 
+	}
+	.headline{
+		a{
+			color: $orange; 
+			font-size: rem-calc(30); 
+		}
+	}
+	span{
+		color: $black !important; 
+		font-family: inherit !important; 
+	}
+}
+#blog{
+	max-height: rem-calc(600); 
+}

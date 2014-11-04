@@ -23,7 +23,7 @@
 			</ul>
 			</li>
 			<li><a href="./clients.php" id="clients">our clients</a></li>
-			<li><a href="http://streamabout.blogspot.ie/">blog</a></li>
+			<li><a href="./blog.php">blog</a></li>
 			<li><a href="./contact.php" id="contact">contact</a></li>
 		</ul>
 	</div>
