@@ -48,6 +48,9 @@
 		}
 	}
 	.scroll-box{
+		@media #{$small-only}{
+			height: rem-calc(215) !important; 
+		}
 		padding-right: rem-calc(15); 
 		.orange{
 			color: $orange; 
@@ -84,13 +87,20 @@
 		margin-right:rem-calc(12); 
 	}
 }
+@media #{$small-only}{
+
+	.slick-prev, .slick-next{
+	}
+}
 .slick-prev{
 	transform: scaleX(-1);
 	-moz-transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
 	-ms-transform: scaleX(-1);
 }
-
+.slick-prev, .slick-next{
+	height: auto !important; 
+}	
 @media #{$medium-only}{
 	.slick-slide img{
 		width: rem-calc(200);

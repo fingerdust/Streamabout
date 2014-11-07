@@ -1,31 +1,15 @@
 
 <div class="footer">
 	<div class="twelve columns text-center mobile logo">
-  		<h1>
-		  	<a href="http://www.streamabout.com">
-			    <img class="logo-text" src="images/logo-text.png" alt="Streamabout" />
-			    <img class="logo-circles" src="images/logo-circles.png" alt="Streamabout" />
-			    <br />
-			    <img class="logo-subtext" src="images/logo-subtext.png" alt="Streamabout" />
-			</a>
-		</h1>
-		<div class="social-media">
 
-			<a href="#"><img id="facebook" src="images/sprites/trans.png"></a>
-			<a href="#"><img id="twitter" src="images/sprites/trans.png"></a>
-			<a href="#"><img id="linkedin" src="images/sprites/trans.png"></a>
-			<a href="#"><img id="youtube" src="images/sprites/trans.png"></a>
-			<a href="#"><img id="google" src="images/sprites/trans.png"></a>
-			<a href="#"><img id="pinterest" src="images/sprites/trans.png"></a>
-		</div>
-		<a href="#"><h3>Contact</h3></a>
+
 	</div>
-	<div class="large-12 medium-12 small-12 columns non-mobile">
-		<div class="large-2 columns non-medium">
+	<div class="large-12 medium-12 small-12 columns">
+		<div class="large-2 columns non-medium mobile">
 			</br></br></br></br></br></br></br>
 			<a href="http://www.streamabout.com">&copy; Streamabout 2014</a>
 		</div>		
-		<div class="large-2 medium-3 columns non-mobile">
+		<div class="large-2 medium-3 columns mobile">
 			<ul>
 				<li><span>Site Map</span></li>
 				<li><br /></li>
@@ -37,7 +21,7 @@
 				<li><a href="./contacts.php">contact</a></li>
 			</ul>	
 		</div>		
-		<div class="large-2 medium-4 columns non-mobile">
+		<div id="show-mobile" class="large-2 medium-4 columns">
 			<ul>
 				<li><a href="http://www.streamabout.com">Streamabout Ltd.</a></li>
 				<li><br /></li>
@@ -49,12 +33,12 @@
 				<li><a href="mailto:hello@streamabout.ie">hello@streamabout.ie</a></li>
 			</ul>
 		</div>
-		<div class="large-3 columns non-mobile non-medium">
+		<div class="large-3 columns non-mobile non-medium mobile">
 			</br></br></br></br></br></br></br>
 			<span>Design: </span><a href="#">John Tobin</a><span> / </span>
 			<span>Dev: </span><a href="#">Mark Tobin</a>
 		</div>
-		<div class="large-3 medium-5 small-6 columns">
+		<div class="small-12 large-3 medium-5  columns">
 
 			<div class="social-media">
 

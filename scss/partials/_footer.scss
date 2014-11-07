@@ -14,7 +14,7 @@
 	span, a{
 		color: $snow; 
 		font-weight: 100; 
-		@media #{$small-up}{ font-size: rem-calc(4); }
+		@media #{$small-up}{ font-size: rem-calc(16); }
 		@media #{$medium-up}{ font-size: rem-calc(10); }
 		@media #{$large-up}{ font-size: rem-calc(12);}
 	}
@@ -26,18 +26,24 @@
 		margin-bottom: 0;
 		line-height: 1.2;
 		margin-left: 0; 
-	}
-	.social-media{
-		position: absolute;
-		right: rem-calc(13);
-		bottom: rem-calc(-150);
-		height: auto;
-
 		@media #{$small-only}{
 			position: relative; 
-			margin-top: rem-calc(-35); 
-			right: 0; 
-			bottom: rem-calc(8); 
+			margin: 0 auto; 
+			text-align: center; 
+			margin-bottom: rem-calc(20); 
+		}
+	}
+	.social-media{
+		@media #{$medium-up}{
+			position: absolute;
+			right: rem-calc(13);
+			bottom: rem-calc(-150);
+			height: auto;
+		}
+		@media #{$small-only}{
+			position: relative; 
+			margin: 0 auto; 
+			text-align: center; 
 		}
 	}
 	#facebook{
@@ -100,42 +106,13 @@
 			background: url(../images/sprites/social-media-icon-sprite-medium.png) -170px 0; 
 		}
 	} 
-	.non-mobile{
+	.mobile{
+		display: inline-block; 
 		@media #{$small-only}{ display: none; }
+
 	}
 	.non-medium{
 		@media #{$medium-only}{ display: none;}
-	}
-	.mobile{
-		@media #{$small-only}{ 
-
-			display: block; 
-			margin-top: rem-calc(-10); 
-			img{ 
-				margin-top: 1em;
-				&.logo-text{
-					width: rem-calc(200); 
-				}
-				&.logo-circles{
-					-webkit-animation:spin 4s linear infinite;
-					-moz-animation:spin 4s linear infinite;
-					animation:spin 4s linear infinite;
-					width: rem-calc(69.9); 
-					margin-left: -8.3em;
-					margin-top: 2.45em;
-				}
-				&.logo-subtext{
-					width: rem-calc(136.1); 
-					margin-top: -16.2em;
-					margin-left: -10.75em;				
-				}
-				-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-			    -moz-animation: fadein 4s; /* Firefox < 16 */
-			    -ms-animation: fadein 4s; /* Internet Explorer */
-			    -o-animation: fadein 4s; /* Opera < 12.1 */
-			    animation: fadein 4s;
-			}
-		}
 	}
 	h3{
 		color: $charcoal; 

@@ -8,13 +8,13 @@
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
+          <div class="small-12 medium-3 columns banner-side">
             <div class="banner-side-text">
               <h1>Programming</h1>
               <h3>More and more publisher audiences are switching to online, online newspapers are becoming broadcasters themselves as they achieve these high audiences.</br>If the concept is good, the content is good, online publishers will welcome strong digital video programmes. In some ways, like the olden days of sponsored radio programmes.</br>This allows brands produce a series of programmes that tell their story in a new, unique and interesting way.</br>Brands too are producing programmes in their own right focusing on their target audience and what their audience want to watch whilst promoting or selling their product. Programming for many brands is now becoming very effecive as they see more and more traffic to their websites that are successfully converting to sales too.</h3> 
             </div>
           </div>
-          <div class="small-9 columns banner-image">
+          <div class="small-12 medium-9 columns banner-image">
             <div class="flex-video widescreen">
               <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/zkhnSX806Vg?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>

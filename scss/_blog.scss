@@ -1,6 +1,12 @@
 .feedburnerFeedBlock{
+	width: 60%; 
+	margin: 0 auto !important; 
+	@media #{$small-only}{
+		width: 100%; 
+	}
 	img{
 		width: 40% !important; 
+		@media #{$small-only}{}
 	}
 	ul{
 		list-style-type: none; 

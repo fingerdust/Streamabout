@@ -8,14 +8,14 @@
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
+          <div class="small-12 medium-3 columns banner-side">
             <div class="banner-side-text">
               <h1>PR Video News Releases</h1>
               <h3>We work with all the major PR Agencies including Presence PR, WHPR, Ogilvy, Drury, Murrays, MCSquared, O’Leary, Plunkett PR, Q4PR, Edelman, Heneghan PR, Weber Shandwick and many more.</br>
               Here a news story such as a PR launch or a event is filmed, edited and syndicated to media normally same day. These are crafted video to create the glamour and glitz of the event but also to tell the story in a way which newspapers want.  A balancing act that comes with experience and our videos appear regularly on online publisher sites.</h3> 
             </div>
           </div>
-          <div class="small-9 columns banner-image">
+          <div class="small-12 medium-9 columns banner-image">
             <div class="flex-video widescreen">
               <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/LnMP6cJ0y6c?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>

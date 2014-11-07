@@ -8,13 +8,13 @@
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
+          <div class="small-12 medium-3 columns banner-side">
             <div class="banner-side-text">
               <h3>Omnicom, The Global Advertising Agency recently recommended that clients move 10-25% of their television advertising budgets into online digital video.</h3>
               <p></p> 
             </div>
           </div>
-          <div class="small-9 columns banner-image">
+          <div class="small-12 medium-9 columns banner-image">
             <img src="images/its-about-you-image.png">
           </div>
         </div>

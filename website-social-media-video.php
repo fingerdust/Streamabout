@@ -8,13 +8,13 @@
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
+          <div class="small-12 medium-3 columns banner-side">
             <div class="banner-side-text">
               <h1>Website/Social Media video</h1>
               <h3>Video is the driver of the Internet. People want to see moving pictures and hear what you have to say. YouTube is the second biggest Search engine after Google as a consequence.</br>If you include strong video as part of your online offering (and as part of your Social Media), you’ll increase conversion of visitors. As high as 20% and digital online video has the highest click-thru rate of any digital format. Because when people watch a video, they’re more inclined to follow through.</br>It’s also emminently shareable by views – if it’s really well produced and thought through.</h3> 
             </div>
           </div>
-          <div class="small-9 columns banner-image">
+          <div class="small-12 medium-9 columns banner-image">
             <div class="flex-video widescreen">
               <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/ReXhfoEcxxY?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>

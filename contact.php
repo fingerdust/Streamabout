@@ -8,13 +8,13 @@
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
+          <div class="small-12 medium-3 columns banner-side">
             <div class="banner-side-text">
               <h3>500 years of YouTube video are watched every day on Facebook, and over 700 YouTube videos are shared on Twitter each minute</h3>
               <p>YouTube</p> 
             </div>
           </div>
-          <div class="small-9 columns banner-image">
+          <div class="small-12 medium-9 columns banner-image">
             <img src="images/its-about-you-image.png">
           </div>
         </div>

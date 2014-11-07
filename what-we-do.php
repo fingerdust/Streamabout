@@ -7,7 +7,7 @@
       <!-- Header -->
       <?php include 'partials/header.php' ?>
       <div class="row banner-2">
-        <div class="small-3 columns banner-side">
+        <div class="small-12 medium-3 columns banner-side">
           <div class="banner-side-text">
             <h1>What we do is driven by what our Clients want and need.</h2> 
             <h3>
@@ -22,7 +22,7 @@
             </h3>
           </div>
         </div>
-        <div class="small-9 columns banner-image">
+        <div class="small-12 medium-9 columns banner-image">
           <img src="images/what-we-do.png">
         </div>
       </div>

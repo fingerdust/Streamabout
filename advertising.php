@@ -8,7 +8,7 @@
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
+          <div class="small-12 medium-3 columns banner-side">
             <div class="banner-side-text">
               <h1>Advertising</h1>
               <h3>The key to online digital video is that’s where the audience is shifting. And as it does, you need to be seen there.</br>
@@ -34,7 +34,7 @@ You’ll see some of our work here (although we have created literally thousands
 </h3> 
             </div>
           </div>
-          <div class="small-9 columns banner-image">
+          <div class="small-12 medium-9 columns banner-image">
             <div class="flex-video widescreen">
               <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/5u9RmZ-fUSY?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>

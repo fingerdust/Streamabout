@@ -8,13 +8,13 @@
       <?php include 'partials/header.php' ?>
 
         <div class="row banner-2">
-          <div class="small-3 columns banner-side">
+          <div class="small-12 medium-9 columns banner-side">
             <div class="banner-side-text">
               <h1>Interactive Magazines</h1>
               <h3>Digital Interactive Magazines, combine traditional publishing with interactive content. A great way to tell your story whether they appear on your own website, in conjunction with a major publisher with large audiences such as independent.ie or as printed version as well, inserted into newspapers.</h3> 
             </div>
           </div>
-          <div class="small-9 columns banner-image">
+          <div class="small-12 medium-9 columns banner-image">
             <div class="flex-video widescreen">
               <iframe id="player"  width="1280" height="720" src="//www.youtube.com/embed/uDm8AAT_t8k?autoplay=1&playsinline=1&rel=0&showinfo=0&theme=light&autohide=1" frameborder="0" allowfullscreen></iframe>
             </div>
